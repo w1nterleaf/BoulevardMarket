@@ -1,0 +1,248 @@
+@import 'font.css';
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat-Bold';
+    font-weight: 700;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+
+.container{
+    max-width: 1140px;
+    width: 100%;
+    min-height: 65px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.header{
+    background: #282828;
+}
+.header__nav{
+    display: flex;
+    gap: 25px;
+}
+.header__list{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    color: #FFF;
+}
+.header__nav .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #282828;
+}
+.header-info{
+    display: flex;
+}
+.header__logo{
+    padding: 5px 0;
+    margin-right: 40px;
+}
+.header__link{
+    color: #FFF;
+    font-size: 20px;
+}
+.header__img{
+    display: flex;
+    justify-content: space-between;
+    max-width: 65px;
+    gap: 10px;
+    width: 100%;
+}
+.header__intro{
+    background: url(../img/Header.png) no-repeat center/cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.header__intro-title{
+    color: #FFF;
+    font-family: 'ProstoOne-Regular';
+    font-size: 100px;
+}
+.header__intro-text{
+    display: flex;
+    font-family: Montserrat;
+    color: #171718;
+    font-size: 20px;
+    font-weight: 500;
+    background: #FFFF;
+    padding: 15px ;
+    margin-top: 38px;
+    border-radius: 10px;
+}
+.header__intro-text img{
+    display: flex;
+    margin-left: 20px;
+}
+.main{
+    background: #151515;
+}
+.main-container{
+    background: #151515;
+    min-width: 700px;
+    width: 100%;
+    height: 1780px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.product-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.info1{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 58px;
+    color: #FFF;
+    font-family: 'Montserrat-Regular';
+    font-size: 22px;
+    font-weight: 500;
+    width: 538px;
+}
+.main__img1{
+    display: flex;
+    padding: 30px 30px;
+}
+.info2{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 58px;
+    color: #FFF;
+    font-family: 'Montserrat-Regular';
+    font-size: 22px;
+    font-weight: 500;
+    width: 538px;
+}
+.product-info2{
+    display: flex;
+    align-items: center;
+}
+.product-info3{
+    display: flex;
+    height: 375px;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+.info3{
+    color: #FFF;
+    text-align: right;
+    font-size: 20px;
+    margin-top: 145px;
+    margin-left: 30px;
+    width: 333px;
+    height: 120px;
+}
+.main__img3{
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+.main__img3::before{
+    content: '';
+    width: 61px;
+    height: 1px;
+    background: #C4C4C4;
+    margin-left: 10px;
+}
+
+.main__img3::after{
+    content: '';
+    width: 61px;
+    height: 1px;
+    background: #C4C4C4;
+    margin-right: 10px;
+}
+.info4{
+    color: #FFF;
+    font-size: 20px;
+    margin-top: 133px;
+    margin-right: 30px;
+    width: 333px;
+    height: 144px;
+}
+.product-title{
+    display: flex;
+    margin-bottom: 10px;
+}
+.product-info4{
+    display: flex;
+    gap: 30px;
+    margin-top: 99px;
+    justify-content: center;
+    align-items: center;
+}
+.catalog{
+    width: 255px;
+    height: 312px;
+    border-radius: 6px;
+    background: #FFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.price{
+    color: #000;
+    font-family: 'Montserrat-Regular';
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+.form button{
+    color: #FFF;
+    font-size: 16px;
+    border: none;
+    width: 161px;
+    height: 34px;
+    background: #151515;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.footer{
+    background: #282828;
+    box-shadow: 0px -4px 20px 0px rgba(0, 0, 0, 0.25);
+    padding: 81px 0 ;
+}
+.footer .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer__list{
+    display: flex;
+    gap: 25px;
+}
+.footer__link{
+    color: #FFF;
+    font-size: 20px;
+}
+
+.footer__logo{
+    padding-left: 80px;
+}
+.footer__img{
+    display: flex;
+    gap: 25px;
+}
+
+.sec1__btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
